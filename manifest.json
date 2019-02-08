@@ -1,0 +1,14 @@
+{
+  "name": "Splicer",
+  "version": "1.0",
+  "description": "Splicer helps you split your long text into Tweet ",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
